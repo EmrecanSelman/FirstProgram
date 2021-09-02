@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="750.0" style="-fx-background-color: pink;" type="Pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="-3.0" prefHeight="400.0" prefWidth="237.0">
+         <children>
+            <TextFlow fx:id="quastion" prefHeight="109.0" prefWidth="237.0" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer1" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer2" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer3" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer4" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer5" />
+            <CheckBox mnemonicParsing="false" prefHeight="40.0" prefWidth="232.0" text="answer6" />
+         </children>
+      </VBox>
+      <RadioButton layoutX="448.0" layoutY="100.0" mnemonicParsing="false" text="married" />
+      <Button fx:id="NextPage" layoutX="479.0" layoutY="344.0" mnemonicParsing="false" text="Next" />
+      <Button fx:id="login" layoutX="218.0" layoutY="400.0" mnemonicParsing="false" text="Login" />
+   </children>
+</fx:root>
