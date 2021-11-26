@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="472.0" prefWidth="636.0" type="AnchorPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="NameStudent" layoutX="56.0" layoutY="99.0" prefHeight="34.0" prefWidth="232.0" />
+      <TextField fx:id="NumberStudent" layoutX="56.0" layoutY="202.0" prefHeight="34.0" prefWidth="232.0" />
+      <TextField fx:id="TCStudent" layoutX="56.0" layoutY="424.0" prefColumnCount="11" prefHeight="34.0" prefWidth="232.0" />
+      <TextField fx:id="MailStudent" layoutX="56.0" layoutY="321.0" prefHeight="34.0" prefWidth="232.0" />
+      <Label layoutX="56.0" layoutY="262.0" prefHeight="34.0" prefWidth="169.0" text="E-Mail">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="366.0" prefHeight="34.0" prefWidth="169.0" text="TC Kimlik Numarası">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="155.0" prefHeight="34.0" prefWidth="232.0" text="Okul NO/Bölüm-Fakülte">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="48.0" prefHeight="34.0" prefWidth="169.0" text="İsim Soyisim">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="SaveButton" layoutX="463.0" layoutY="417.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: pink;" text="Kaydet">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="382.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@student.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>

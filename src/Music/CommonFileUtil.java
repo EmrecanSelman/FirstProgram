@@ -125,5 +125,10 @@ public class CommonFileUtil {
         return folder;
 
     }
+    public static String getOtomatAppConfigFolder(){
+        String folder=CommonFileUtil.getAppDataFolder(false)+"/Otomat/config/";
+        if(!new File(folder).exists()) new File(folder).mkdirs();
+        return folder;
+    }
 
 }

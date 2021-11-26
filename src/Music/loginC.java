@@ -11,16 +11,11 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.EventObject;
-import java.util.List;
+
 
 
 public class loginC extends AnchorPane {

@@ -8,6 +8,8 @@ import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
 public class stream {
+  static List<Integer> sayılar = new ArrayList<>();
+
     public static void main(String[] args) {
         List<User> users = new ArrayList<>();
         users.add(new User(45,"aslı"));
@@ -15,6 +17,7 @@ public class stream {
         users.add(new User(1,"emre"));
         users.add(new User(72,"ayşe"));
         users.add(new User(7,"onur"));
+        sayılar.add(0,45);
 
         users.stream().forEach(e -> System.out.println(e.toString()));
 
@@ -26,6 +29,7 @@ public class stream {
         System.out.println(ASLI);
         List<User> alphabetic = users.stream().sorted(Comparator.comparing(e -> e.name)).collect(Collectors.toList());
         System.out.println(alphabetic);
+        System.out.println(sayılar);
     }
 static class User{
         int id ;

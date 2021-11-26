@@ -12,7 +12,7 @@
    <children>
       <TextField fx:id="NameStudent" layoutX="56.0" layoutY="99.0" prefHeight="34.0" prefWidth="232.0" />
       <TextField fx:id="NumberStudent" layoutX="56.0" layoutY="202.0" prefHeight="34.0" prefWidth="232.0" />
-      <TextField fx:id="TCStudent" layoutX="56.0" layoutY="424.0" prefHeight="34.0" prefWidth="232.0" />
+      <TextField fx:id="TCStudent" layoutX="56.0" layoutY="424.0" prefColumnCount="11" prefHeight="34.0" prefWidth="232.0" />
       <TextField fx:id="MailStudent" layoutX="56.0" layoutY="321.0" prefHeight="34.0" prefWidth="232.0" />
       <Label layoutX="56.0" layoutY="262.0" prefHeight="34.0" prefWidth="169.0" text="E-Mail">
          <font>
@@ -24,7 +24,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="56.0" layoutY="155.0" prefHeight="34.0" prefWidth="169.0" text="Okul NO">
+      <Label layoutX="56.0" layoutY="155.0" prefHeight="34.0" prefWidth="232.0" text="Okul NO/Bölüm-Fakülte">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
